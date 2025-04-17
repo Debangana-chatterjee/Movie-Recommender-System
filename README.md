@@ -3,7 +3,7 @@ A simple movie recommender system built using Python, Streamlit, and The Movie D
 
 
 ---
-## Features
+##  Features
 - Dropdown to select or search for a movie title
 
 - Movie recommendations based on similarity scores
@@ -23,7 +23,7 @@ A simple movie recommender system built using Python, Streamlit, and The Movie D
 
 `MovieRecommenderSystem.ipynb`: Jupyter notebook used to generate movie_list.pkl and similarity.pkl.
 
-📥 [Download the Dataset](https://drive.google.com/drive/folders/16NfPpSpirBLmswcPp7Ao47KiVvgUpw9o?usp=drive_link)
+📥 [Download the raw Dataset](https://drive.google.com/drive/folders/16NfPpSpirBLmswcPp7Ao47KiVvgUpw9o?usp=drive_link)
 
 
 ---
