@@ -28,10 +28,30 @@ A simple movie recommender system built using Python, Streamlit, and The Movie D
 
 ---
 ## 🧠 How it works
-- The similarity.pkl file contains cosine similarity scores between movies.
+**Data Cleaning & Preprocessing**
+Done in MovieRecommenderSystem.ipynb using:
 
-- When a user selects a movie, the app looks up similar movies using these scores.
+- Genre, cast, crew, keywords, overview, etc.
 
-- The TMDb API is used to fetch posters of the recommended movies.
+- Combined into a single text feature
 
-- The results are displayed in a row with movie titles and images.
+- Transformed using CountVectorizer and cosine similarity
+
+**Recommendation Logic**
+In app.py:
+
+- Loads movie_list.pkl and similarity.pkl
+
+- On user selection, retrieves top 5 similar movies
+
+- Uses TMDb API to fetch posters
+
+**User Interface**
+Built with Streamlit:
+
+- Dropdown to select movies
+
+- Button to get recommendations
+
+- Grid layout showing titles + posters
+
