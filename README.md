@@ -15,7 +15,7 @@ A simple movie recommender system built using Python, Streamlit, and The Movie D
 
 ---
 ## 📁 Files
-`app.py`: Main Streamlit application.
+`app.py`: Streamlit application.
 
 `movie_list.pkl`: Pickled file containing the movie titles and metadata.
 
