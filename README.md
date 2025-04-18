@@ -21,7 +21,7 @@ A simple movie recommender system built using Python, Streamlit, and The Movie D
 
 `similarity pkl.7z`: Pickled similarity matrix generated from movie features.
 
-`MovieRecommenderSystem.ipynb`: Jupyter notebook used to generate movie_list.pkl and similarity.pkl.
+`MovieRecommenderSystem.ipynb`: Google colab notebook used to generate movie_list.pkl and similarity.pkl.
 
 📥 [Download the raw Dataset](https://drive.google.com/drive/folders/16NfPpSpirBLmswcPp7Ao47KiVvgUpw9o?usp=drive_link)
 
